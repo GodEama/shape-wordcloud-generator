@@ -71,9 +71,9 @@ A powerful, client-side word cloud generator that creates custom-shaped word clo
 
 ### 🌐 Try it Online | 在线体验
 
-**📱 [Live Demo](https://godeama.github.io/shape-wordcloud-generator/)** - Click to experience the Shape WordCloud Generator directly!
+**📱 [Live Demo](https://godeama.github.io/shape-wordcloud-generator/index.html)** - Click to experience the Shape WordCloud Generator directly!
 
-**📱 [在线演示](https://godeama.github.io/shape-wordcloud-generator/)** - 点击直接体验形状词云生成器！
+**📱 [在线演示](https://godeama.github.io/shape-wordcloud-generator/index.html)** - 点击直接体验形状词云生成器！
 
 > **Note**: If you're viewing this on GitHub, you can access the live demo by:
 > 1. **GitHub Pages**: `https://godeama.github.io/shape-wordcloud-generator/`
@@ -410,3 +410,5 @@ For questions, bug reports, or feature requests:
 ---
 
 **Made with ❤️ for the open source community | 为开源社区用心制作 ❤️**
+
+<!-- GitHub Pages deployment trigger -->
