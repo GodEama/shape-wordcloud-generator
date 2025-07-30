@@ -1,9 +1,15 @@
 # Shape WordCloud Generator | 形状词云生成器
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen.svg)](https://godeama.github.io/shape-wordcloud-generator/)
+
+<div align="center">
+
+## 🎯 [**在线体验 Live Demo**](https://godeama.github.io/shape-wordcloud-generator/) 🎯
+
+**[点击这里直接使用词云生成器 Click here to use the generator](https://godeama.github.io/shape-wordcloud-generator/)**
+
+</div>
 
 [English](#english) | [中文](#中文)
 
@@ -61,6 +67,44 @@ A powerful, client-side word cloud generator that creates custom-shaped word clo
 - **拖拽界面**: 直观的文件上传和视觉反馈
 - **词频分析**: 内置文本分析和停用词过滤功能
 
+## 🎯 Live Demo | 在线演示
+
+### 🌐 Try it Online | 在线体验
+
+**📱 [Live Demo](https://godeama.github.io/shape-wordcloud-generator/)** - Click to experience the Shape WordCloud Generator directly!
+
+**📱 [在线演示](https://godeama.github.io/shape-wordcloud-generator/)** - 点击直接体验形状词云生成器！
+
+> **Note**: If you're viewing this on GitHub, you can access the live demo by:
+> 1. **GitHub Pages**: `https://godeama.github.io/shape-wordcloud-generator/`
+> 2. **Local Access**: Download and open `index.html` in your browser
+> 3. **Development Server**: Run a local server as described below
+
+> **注意**: 如果您在GitHub上查看此文档，可以通过以下方式访问在线演示：
+> 1. **GitHub Pages**: `https://godeama.github.io/shape-wordcloud-generator/`
+> 2. **本地访问**: 下载并在浏览器中打开 `index.html`
+> 3. **开发服务器**: 按照下面描述运行本地服务器
+
+### 🖼️ Demo Screenshots | 演示截图
+
+The main interface (`index.html`) provides:
+
+主界面 (`index.html`) 提供：
+
+- **🎨 Intuitive Upload Interface** - Drag & drop image upload area
+- **📝 Flexible Text Input** - Direct input or TXT file upload
+- **⚙️ Real-time Controls** - Adjust parameters and see instant previews
+- **🎨 Color Customization** - Multiple color schemes and custom backgrounds
+- **📊 Word Frequency Analysis** - Built-in text analysis tools
+- **💾 High-Quality Export** - Download as PNG images
+
+- **🎨 直观的上传界面** - 拖拽式图片上传区域
+- **📝 灵活的文本输入** - 直接输入或TXT文件上传
+- **⚙️ 实时控制** - 调整参数并查看即时预览
+- **🎨 颜色自定义** - 多种配色方案和自定义背景
+- **📊 词频分析** - 内置文本分析工具
+- **💾 高质量导出** - 下载为PNG图片
+
 ## 🚀 Quick Start | 快速开始
 
 ### Prerequisites
@@ -71,7 +115,7 @@ A powerful, client-side word cloud generator that creates custom-shaped word clo
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/shape-wordcloud-generator.git
+   git clone https://github.com/GodEama/shape-wordcloud-generator.git
    cd shape-wordcloud-generator
    ```
 
@@ -81,14 +125,14 @@ A powerful, client-side word cloud generator that creates custom-shaped word clo
    open index.html
    
    # Option 2: Local server (recommended)
-   python server.py
-   # or
    python -m http.server 8000
+   # Then visit: http://localhost:8000
    ```
 
 3. **Access the application**
-   - Direct: Open `index.html` in your browser
-   - Server: Navigate to `http://localhost:8000`
+   - **Direct**: Open `index.html` in your browser
+   - **Server**: Navigate to `http://localhost:8000`
+   - **Online**: Visit the GitHub Pages URL (if deployed)
 
 ### 系统要求
 - 支持JavaScript的现代浏览器
@@ -98,7 +142,7 @@ A powerful, client-side word cloud generator that creates custom-shaped word clo
 
 1. **克隆仓库**
    ```bash
-   git clone https://github.com/yourusername/shape-wordcloud-generator.git
+   git clone https://github.com/GodEama/shape-wordcloud-generator.git
    cd shape-wordcloud-generator
    ```
 
@@ -108,14 +152,14 @@ A powerful, client-side word cloud generator that creates custom-shaped word clo
    open index.html
    
    # 方式2: 本地服务器（推荐）
-   python server.py
-   # 或者
    python -m http.server 8000
+   # 然后访问: http://localhost:8000
    ```
 
 3. **访问应用**
-   - 直接访问: 在浏览器中打开 `index.html`
-   - 服务器访问: 访问 `http://localhost:8000`
+   - **直接访问**: 在浏览器中打开 `index.html`
+   - **服务器访问**: 访问 `http://localhost:8000`
+   - **在线访问**: 访问GitHub Pages网址（如已部署）
 
 ## 📖 Usage Guide | 使用指南
 
@@ -199,16 +243,30 @@ The application includes a comprehensive custom dictionary (`custom-dict.txt`) f
 
 ```
 shape-wordcloud-generator/
-├── index.html              # Main application interface | 主应用界面
+├── index.html              # 🎯 Main Demo Page | 主演示页面 (点击体验!)
 ├── css/
 │   └── style.css          # Styling and responsive design | 样式和响应式设计
 ├── js/
 │   ├── app.js             # Core application logic | 核心应用逻辑
 │   └── wordcloud2.js      # WordCloud2 library | WordCloud2库
 ├── custom-dict.txt        # Custom dictionary for text processing | 文本处理自定义词典
-├── server.py              # Optional Python development server | 可选的Python开发服务器
+├── .gitignore             # Git ignore rules | Git忽略规则
+├── LICENSE                # MIT License | MIT许可证
 └── README.md              # Project documentation | 项目文档
 ```
+
+### 📁 Key Files | 核心文件
+
+- **`index.html`** 🎯 - **Main application interface** | **主应用界面**
+  - Complete word cloud generator with intuitive UI | 完整的词云生成器，界面直观
+  - Drag & drop image upload | 拖拽式图片上传
+  - Real-time parameter controls | 实时参数控制
+  - **[Click to open](https://godeama.github.io/shape-wordcloud-generator/)** | **[点击打开](https://godeama.github.io/shape-wordcloud-generator/)**
+
+- **`css/style.css`** - Modern responsive styling | 现代响应式样式
+- **`js/app.js`** - Core functionality and text processing | 核心功能和文本处理
+- **`js/wordcloud2.js`** - WordCloud rendering engine | 词云渲染引擎
+- **`custom-dict.txt`** - Chinese text segmentation dictionary | 中文分词词典
 
 ## 🛠️ Technical Architecture | 技术架构
 
@@ -255,21 +313,35 @@ getStopWords() {
 
 ## 🚀 Deployment | 部署
 
+### 📱 Entry Point | 入口文件
+
+The main application is accessible through **`index.html`** - this is your entry point for the word cloud generator.
+
+主应用通过 **`index.html`** 访问 - 这是词云生成器的入口文件。
+
 ### Static Hosting | 静态托管
+
 This application is designed for static hosting and can be deployed to:
 
 该应用专为静态托管设计，可以部署到以下平台：
 
 - **GitHub Pages**: Enable in repository settings | 在仓库设置中启用
+  - Your demo will be available at: `https://godeama.github.io/shape-wordcloud-generator/`
+  - 演示地址将是: `https://godeama.github.io/shape-wordcloud-generator/`
 - **Netlify**: Drag & drop deployment | 拖拽部署
 - **Vercel**: Connect GitHub repository | 连接GitHub仓库
 - **AWS S3**: Static website hosting | 静态网站托管
 - **Any CDN**: Upload files to content delivery network | 上传文件到内容分发网络
 
 ### Configuration | 配置
+
 No build process or server-side configuration required. Simply upload all files to your hosting provider.
 
 无需构建过程或服务器端配置。只需将所有文件上传到您的托管服务提供商即可。
+
+**Important**: Make sure `index.html` is in the root directory for proper access.
+
+**重要**: 确保 `index.html` 在根目录中以便正确访问。
 
 ## 🤝 Contributing | 贡献
 
@@ -331,9 +403,9 @@ For questions, bug reports, or feature requests:
 
 如有问题、错误报告或功能请求：
 
-- **Issues**: [GitHub Issues](https://github.com/yourusername/shape-wordcloud-generator/issues) | 问题反馈
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/shape-wordcloud-generator/discussions) | 讨论交流
-- **Documentation**: [Wiki](https://github.com/yourusername/shape-wordcloud-generator/wiki) | 文档说明
+- **Issues**: [GitHub Issues](https://github.com/GodEama/shape-wordcloud-generator/issues) | 问题反馈
+- **Discussions**: [GitHub Discussions](https://github.com/GodEama/shape-wordcloud-generator/discussions) | 讨论交流
+- **Documentation**: [Wiki](https://github.com/GodEama/shape-wordcloud-generator/wiki) | 文档说明
 
 ---
 
