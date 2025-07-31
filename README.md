@@ -74,17 +74,17 @@ A powerful, client-side word cloud generator that creates custom-shaped word clo
 **🌍 International Access | 国际访问**
 - **📱 [GitHub Pages](https://godeama.github.io/shape-wordcloud-generator)** - Global access | 全球访问
 
-**🇨🇳 China Access | 国内访问**
-- **📱 [Gitee Pages](https://gxjios.gitee.io/shape-wordcloud-generator)** - Fast access in China | 国内高速访问
+**🚀 Fast Global Access | 全球高速访问**
+- **📱 [Vercel Deployment](https://您的项目名.vercel.app)** - Fast worldwide access | 全球高速访问
 
 > **Note**: Choose the platform that works best for your location:
-> - **GitHub Pages**: Better for international users
-> - **Gitee Pages**: Optimized for users in China
+> - **GitHub Pages**: Stable and reliable
+> - **Vercel**: Fast global CDN with excellent performance
 > - **Local Access**: Download and open `index.html` in your browser
 
-> **注意**: 请选择适合您所在地区的平台：
-> - **GitHub Pages**: 适合国际用户
-> - **Gitee Pages**: 为中国用户优化
+> **注意**: 请选择适合您的平台：
+> - **GitHub Pages**: 稳定可靠
+> - **Vercel**: 全球CDN，性能优秀
 > - **本地访问**: 下载并在浏览器中打开 `index.html`
 
 ### 🖼️ Demo Screenshots | 演示截图
