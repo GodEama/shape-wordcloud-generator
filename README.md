@@ -71,19 +71,21 @@ A powerful, client-side word cloud generator that creates custom-shaped word clo
 
 ### 🌐 Try it Online | 在线体验
 
-**📱 [Live Demo](https://godeama.github.io/shape-wordcloud-generator/index.html)** - Click to experience the Shape WordCloud Generator directly!
+**🌍 International Access | 国际访问**
+- **📱 [GitHub Pages](https://godeama.github.io/shape-wordcloud-generator)** - Global access | 全球访问
 
-**📱 [在线演示](https://godeama.github.io/shape-wordcloud-generator/index.html)** - 点击直接体验形状词云生成器！
+**🇨🇳 China Access | 国内访问**
+- **📱 [Gitee Pages](https://gxjios.gitee.io/shape-wordcloud-generator)** - Fast access in China | 国内高速访问
 
-> **Note**: If you're viewing this on GitHub, you can access the live demo by:
-> 1. **GitHub Pages**: `https://godeama.github.io/shape-wordcloud-generator/`
-> 2. **Local Access**: Download and open `index.html` in your browser
-> 3. **Development Server**: Run a local server as described below
+> **Note**: Choose the platform that works best for your location:
+> - **GitHub Pages**: Better for international users
+> - **Gitee Pages**: Optimized for users in China
+> - **Local Access**: Download and open `index.html` in your browser
 
-> **注意**: 如果您在GitHub上查看此文档，可以通过以下方式访问在线演示：
-> 1. **GitHub Pages**: `https://godeama.github.io/shape-wordcloud-generator/`
-> 2. **本地访问**: 下载并在浏览器中打开 `index.html`
-> 3. **开发服务器**: 按照下面描述运行本地服务器
+> **注意**: 请选择适合您所在地区的平台：
+> - **GitHub Pages**: 适合国际用户
+> - **Gitee Pages**: 为中国用户优化
+> - **本地访问**: 下载并在浏览器中打开 `index.html`
 
 ### 🖼️ Demo Screenshots | 演示截图
 
